@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./style.css" />
+		<title>Jupiter Health</title>
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="logo-container">
+				<img src="./jupiter_logo.jpg" alt="logo" class="jupiter-logo" href="index.html"/>
+				<h4 class="logo">Jupiter Health</h4>
+			</div>
+			<nav>
+				<ul class="nav-links">
+					<li><a class="nav-link" href="index.html">Home</a></li>
+					<li><a class="nav-link" href="about.html">About</a></li>
+					<li><a class="nav-link" href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+			<div class="cart">
+				<img src="./img/cart.svg" alt="cart" />
+			</div>
+		</header>
+        <section class="contact-form">
+            <div class="container">
+             <form action="https://formspree.io/f/mjvzgbwk" method="POST" id="my-form">
+        
+              <div class="form-group">
+                <label for="firstName"> First Name</label>
+                <input type="text" id="firstName" name="firstName">
+              </div>
+        
+              <div class="form-group">
+                <label for="latsName">Last Name</label>
+                <input type="text" id="lastName" name="lastName">
+              </div>
+        
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+              </div>
+        
+              <div class="form-group">
+                <label for="massage">Message</label>
+                <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+              </div>
+        
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+          <div id="status"></div>
+        </section>
+
+		<main>
+			<img class="big-circle" src="./img/big-eclipse.svg" alt="" />
+			<img class="medium-circle" src="./img/mid-eclipse.svg" alt="" />
+			<img class="small-circle" src="./img/small-eclipse.svg" alt="" />
+		</main>
+	</body>
+</html>
